@@ -1,0 +1,83 @@
+<div class="flex h-screen">
+  <!-- Sidebar -->
+  <div class="w-64 bg-[#0A0A23] text-white border-r-2 border-[#B10303]">
+    <div class="p-4 flex items-center justify-center border-b border-[#B10303]">
+      <img src="assets/logo2.png" alt="Logo" class="h-12">
+    </div>
+    <ul class="mt-4">
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center">
+        <span class="mr-2"><i class="fas fa-home"></i></span> DASHBOARD
+      </li>
+
+      <!-- Menú desplegable Caja -->
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center cursor-pointer" (click)="toggleDropdown('caja')">
+        <span class="mr-2"><i class="fas fa-cash-register"></i></span> CAJA
+        <svg [class.rotate-180]="isDropdownOpen.caja" class="ml-auto h-4 w-4 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </li>
+      <ul *ngIf="isDropdownOpen.caja" class="pl-8">
+        <li class="py-2 cursor-pointer">Abrir caja</li>
+        <li class="py-2 cursor-pointer">Cerrar caja</li>
+      </ul>
+
+      <!-- Menú desplegable Productos -->
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center cursor-pointer" (click)="toggleDropdown('productos')">
+        <span class="mr-2"><i class="fas fa-box"></i></span> PRODUCTOS
+        <svg [class.rotate-180]="isDropdownOpen.productos" class="ml-auto h-4 w-4 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </li>
+      <ul *ngIf="isDropdownOpen.productos" class="pl-8">
+        <li class="py-2 cursor-pointer">Lista de productos</li>
+        <li class="py-2 cursor-pointer">Agregar producto</li>
+      </ul>
+
+      <!-- Menú desplegable Inventario -->
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center cursor-pointer" (click)="toggleDropdown('inventario')">
+        <span class="mr-2"><i class="fas fa-clipboard-list"></i></span> INVENTARIO
+        <svg [class.rotate-180]="isDropdownOpen.inventario" class="ml-auto h-4 w-4 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </li>
+      <ul *ngIf="isDropdownOpen.inventario" class="pl-8">
+        <li class="py-2 cursor-pointer">Ver inventario</li>
+        <li class="py-2 cursor-pointer">Actualizar stock</li>
+      </ul>
+
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center">
+        <span class="mr-2"><i class="fas fa-shopping-cart"></i></span> VENTAS
+      </li>
+
+      <!-- Menú desplegable Administracion -->
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center cursor-pointer" (click)="toggleDropdown('administracion')">
+        <span class="mr-2"><i class="fas fa-cogs"></i></span> ADMINISTRACIÓN
+        <svg [class.rotate-180]="isDropdownOpen.administracion" class="ml-auto h-4 w-4 transition-transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </li>
+      <ul *ngIf="isDropdownOpen.administracion" class="pl-8">
+        <li class="py-2 cursor-pointer"><i class="fas fa-users"></i> Usuarios</li>
+        <li class="py-2 cursor-pointer"><i class="fas fa-phone"></i> Contacto</li>
+      </ul>
+
+      <li class="px-6 py-3 border-b border-[#B10303] flex items-center">
+        <span class="mr-2"><i class="fas fa-chart-bar"></i></span> REPORTES
+      </li>
+    </ul>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="flex-1 flex flex-col">
+    <!-- Navbar -->
+    <div class="bg-[#B10303] text-white px-6 py-3 flex justify-end">
+      <span class="mr-2">Edwin Chumil Cosiguá</span>
+      <span class="font-light">Admin</span>
+    </div>
+
+    <!-- Contenido -->
+    <div class="p-6 bg-white h-full">
+      <!-- Aquí irá el contenido -->
+    </div>
+  </div>
+</div>

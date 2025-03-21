@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

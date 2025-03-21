@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "nsKFwFAMsHmP0ABBly2kAiK0ksa9FiHjbsIQULad3q8=",
+  "Source": "TiendaKeytlin.Server",
+  "BasePath": "_content/TiendaKeytlin.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin - copia\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+      "Version": 2,
+      "Source": "tiendakeytlin.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
