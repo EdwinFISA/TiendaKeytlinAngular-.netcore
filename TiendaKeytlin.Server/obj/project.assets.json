@@ -3780,11 +3780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin - copia\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+      "projectUniqueName": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\Tienda_Keytelin\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
       "projectName": "TiendaKeytlin.Server",
-      "projectPath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin - copia\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+      "projectPath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\Tienda_Keytelin\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
       "packagesPath": "C:\\Users\\guait\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin - copia\\TiendaKeytlin.Server\\obj\\",
+      "outputPath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\Tienda_Keytelin\\TiendaKeytlin.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

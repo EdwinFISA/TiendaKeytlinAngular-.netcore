@@ -10,6 +10,10 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { JwtInterceptor } from './interceptors/jwt.interceptors';
 import { JwtModule } from '@auth0/angular-jwt';
+import { ContactoComponent } from './Menu/Administracion/Contacto/contacto/contacto.component';
+import { ContactoModalComponent } from './Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
+import { UsuariosComponent } from './Menu/Administracion/Usuarios/usuarios/usuarios.component';
+import { UsuariosModalComponent } from './Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -18,7 +22,11 @@ export function tokenGetter() {
 @NgModule({
   declarations: [
     AppComponent,
-    SidebarComponent
+    SidebarComponent,
+    ContactoComponent,
+    ContactoModalComponent,
+    UsuariosComponent,
+    UsuariosModalComponent
   ],
   imports: [
     BrowserModule,

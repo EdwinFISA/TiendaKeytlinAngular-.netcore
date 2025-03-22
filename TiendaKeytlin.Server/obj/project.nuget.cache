@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPOENonhA5c=",
+  "dgSpecHash": "8oiQ8oEVuu8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin - copia\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+  "projectFilePath": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\Tienda_Keytelin\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guait\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\guait\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
