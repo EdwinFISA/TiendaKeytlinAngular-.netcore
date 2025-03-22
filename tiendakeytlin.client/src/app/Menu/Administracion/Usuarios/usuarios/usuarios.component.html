@@ -27,7 +27,7 @@
 
   <!-- Botón Crear Usuario -->
   <button class="bg-black text-white px-4 py-2 rounded-md mb-4"
-          (click)="crearUsuario()">
+          (click)="abrirModalCrear()">
     Crear usuario
   </button>
 
@@ -64,7 +64,7 @@
             <button class="text-blue-500" (click)="verUsuario(usuario)">
               👁️
             </button>
-            <button class="text-green-500" (click)="editarUsuario(usuario)">
+            <button class="text-green-500" (click)="abrirModalEditar(usuario)">
               ✏️
             </button>
             <button class="text-red-500" (click)="eliminarUsuario(usuario.id)">
@@ -92,4 +92,11 @@
       Siguiente
     </button>
   </div>
+
+  <!-- Modal -->
+  <app-usuarios-modal *ngIf="mostrarModal"
+                      [usuario]="usuarioSeleccionado"
+                      (guardar)="guardarUsuario($event)"
+                      (cerrar)="cerrarModal()">
+  </app-usuarios-modal>
 </div>

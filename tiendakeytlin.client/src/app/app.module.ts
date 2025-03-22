@@ -13,7 +13,7 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { ContactoComponent } from './Menu/Administracion/Contacto/contacto/contacto.component';
 import { ContactoModalComponent } from './Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
 import { UsuariosComponent } from './Menu/Administracion/Usuarios/usuarios/usuarios.component';
-import { UsuariosModalComponent } from './Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
+import { UsuarioModalComponent } from './Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -26,7 +26,7 @@ export function tokenGetter() {
     ContactoComponent,
     ContactoModalComponent,
     UsuariosComponent,
-    UsuariosModalComponent
+    UsuarioModalComponent,
   ],
   imports: [
     BrowserModule,
