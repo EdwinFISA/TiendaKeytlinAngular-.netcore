@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "wY6efgnIoJBv1Wm8L6XZoVFLZbQ6vkyXr/jeAHUxq/w=",
+  "Hash": "M+lyPxd3BKLRzTZpYlpbh4J5K84ZIJaVoE4kDKJ4Lwg=",
   "Source": "TiendaKeytlin.Server",
   "BasePath": "_content/TiendaKeytlin.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\karin\\OneDrive\\Escritorio\\Proyecto U\\ProyectoTienda\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+      "Identity": "C:\\Users\\guait\\Desktop\\PROYECTO 2.0\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
       "Version": 2,
       "Source": "tiendakeytlin.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

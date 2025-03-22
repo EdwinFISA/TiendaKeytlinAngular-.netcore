@@ -7,7 +7,7 @@
   "type": "chrome",
   "request": "launch",
   "url": "https://localhost:56232",
-  "webRoot": "C:\\Users\\guait\\Desktop\\Nueva carpeta (2)\\TiendaKeytelin\\tiendakeytlin.client"
+  "webRoot": "C:\\Users\\guait\\Desktop\\PROYECTO 2.0\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client"
 }</LaunchJsonTarget>
   </PropertyGroup>
 </Project>
