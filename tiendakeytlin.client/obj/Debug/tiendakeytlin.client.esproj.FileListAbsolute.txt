@@ -5,3 +5,4 @@ C:\Users\guait\Desktop\Nueva carpeta (2)\TiendaKeytelin - copia\tiendakeytlin.cl
 C:\Users\guait\Desktop\Nueva carpeta (2)\Tienda_Keytelin\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
 C:\Users\karin\OneDrive\Escritorio\Proyecto U\ProyectoTienda\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
 C:\Users\guait\Desktop\PROYECTO 2.0\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
+C:\Users\elektra\Proyecto\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
