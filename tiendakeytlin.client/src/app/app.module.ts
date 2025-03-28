@@ -14,8 +14,7 @@ import { ContactoComponent } from './Menu/Administracion/Contacto/contacto/conta
 import { ContactoModalComponent } from './Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
 import { UsuariosComponent } from './Menu/Administracion/Usuarios/usuarios/usuarios.component';
 import { UsuarioModalComponent } from './Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
-import { CategoriaComponent } from './Menu/Articulos/categoria/categoria.component';
-import { ProveedoresComponent } from './Menu/Articulos/proveedores/proveedores.component';
+import { ProveedoresComponent } from './Menu/Articulos/proveedores/proveedores/proveedores.component';
 import { ProductosComponent } from './Menu/Articulos/productos/productos.component';
 import { AperturaCajaComponent } from './Menu/Caja/apertura-caja/apertura-caja.component';
 import { CierreCajaComponent } from './Menu/Caja/cierre-caja/cierre-caja.component';
@@ -27,6 +26,7 @@ import { ReporteUsuarioComponent } from './Menu/Reportes/reporte-usuario/reporte
 import { ReporteVentaComponent } from './Menu/Reportes/reporte-venta/reporte-venta.component';
 import { ReportePedidosComponent } from './Menu/Reportes/reporte-pedidos/reporte-pedidos.component';
 import { ReporteInventarioComponent } from './Menu/Reportes/reporte-inventario/reporte-inventario.component';
+import { ProveedoresModalComponent } from './Menu/Articulos/proveedores/proveedores-modal/proveedores-modal.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -40,8 +40,6 @@ export function tokenGetter() {
     ContactoModalComponent,
     UsuariosComponent,
     UsuarioModalComponent,
-    CategoriaComponent,
-    ProveedoresComponent,
     ProductosComponent,
     AperturaCajaComponent,
     CierreCajaComponent,
@@ -56,6 +54,8 @@ export function tokenGetter() {
   ],
   imports: [
     BrowserModule,
+    ProveedoresComponent,
+    ProveedoresModalComponent,
     AppRoutingModule,
     RouterModule,
     FormsModule,

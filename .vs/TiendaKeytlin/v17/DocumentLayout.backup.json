@@ -1,90 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\",
+  "WorkspaceRootPath": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores\\proveedores.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores\\proveedores.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\services\\empresa.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores\\proveedores.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\articulos\\proveedores\\proveedores\\proveedores.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto\\contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\contacto\\contacto-modal\\contacto-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\services\\empresa.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\elektra\\proyecto\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios\\usuarios.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C486012-31BD-4F23-A1A9-2C3219A04040}|TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj|solutionrelative:tiendakeytlin.server\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\menu\\administracion\\usuarios\\usuarios-modal\\usuarios-modal.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|c:\\users\\karin\\documents\\proyecto is\\tiendakeytlinangular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{C1EE8133-5DF5-1682-9D53-B1CBF5D56CAF}|tiendakeytlin.client\\tiendakeytlin.client.esproj|solutionrelative:tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,112 +110,182 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Services\\EmailService.cs",
-              "RelativeToolTip": "TiendaKeytlin.Server\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:26:04.892Z"
+              "DocumentIndex": 8,
+              "Title": "proveedores.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.ts",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-27T03:29:28.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "proveedores-modal.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-27T03:49:12.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "proveedor.service.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\services\\proveedor.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-27T04:06:44.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "proveedores.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores\\proveedores.component.html",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-27T03:22:32.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-22T01:55:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TiendaKeytlin.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:04:28.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "contacto-modal.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T01:07:31.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\appsettings.json",
               "RelativeDocumentMoniker": "TiendaKeytlin.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\appsettings.json",
               "RelativeToolTip": "TiendaKeytlin.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-22T06:18:56.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Program.cs",
-              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Program.cs",
-              "RelativeToolTip": "TiendaKeytlin.Server\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIBJwDYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T06:16:37.578Z"
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\.gitignore",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\.gitignore",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\.gitignore",
+              "RelativeToolTip": "tiendakeytlin.client\\.gitignore",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-22T00:21:57.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Models\\Proveedor.cs",
+              "RelativeToolTip": "TiendaKeytlin.Server\\Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T03:59:31.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "proveedores-modal.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Articulos\\proveedores\\proveedores-modal\\proveedores-modal.component.ts",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-27T03:50:10.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "usuarios.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T01:52:04.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EmpresaController.cs",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
               "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
               "RelativeToolTip": "TiendaKeytlin.Server\\Controllers\\EmpresaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T04:33:12.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TiendaKeytlin.Server\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T05:04:28.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contacto.cs",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Models\\Contacto.cs",
-              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Models\\Contacto.cs",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Models\\Contacto.cs",
-              "RelativeToolTip": "TiendaKeytlin.Server\\Models\\Contacto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T04:31:35.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\.gitignore",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\.gitignore",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\.gitignore",
-              "RelativeToolTip": "tiendakeytlin.client\\.gitignore",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBZwB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-22T00:21:57.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "empresa.service.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T04:36:27.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "contacto.component.html",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -207,11 +293,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "contacto.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-22T01:00:56.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "contacto-modal.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-22T01:08:23.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Program.cs",
+              "RelativeToolTip": "TiendaKeytlin.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:16:37.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "empresa.service.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\services\\empresa.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-22T04:36:27.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "usuarios.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
+              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
+              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-22T01:52:43.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "login.component.html",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.html",
               "ViewState": "AgIAADUAAAAAAAAAAAAcwDEAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -219,11 +365,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "TiendaKeytlin.Server\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\Services\\EmailService.cs",
+              "RelativeToolTip": "TiendaKeytlin.Server\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:26:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "login.component.css",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -231,71 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "contacto-modal.component.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.ts",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T01:08:23.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "contacto.component.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto\\contacto.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T01:00:56.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "app-routing.module.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app-routing.module.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app-routing.module.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app-routing.module.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app-routing.module.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T01:09:44.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\app.module.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\app.module.ts",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T01:55:04.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "contacto-modal.component.html",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Contacto\\contacto-modal\\contacto-modal.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-22T01:07:31.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "usuarios-modal.component.html",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -303,11 +401,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "usuarios-modal.component.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios-modal\\usuarios-modal.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
@@ -315,39 +413,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "login.component.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "DocumentMoniker": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
               "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
               "RelativeToolTip": "tiendakeytlin.client\\src\\app\\components\\login\\login.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-03-21T23:49:08.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "usuarios.component.ts",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-03-22T01:52:43.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "usuarios.component.html",
-              "DocumentMoniker": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
-              "RelativeDocumentMoniker": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
-              "ToolTip": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
-              "RelativeToolTip": "tiendakeytlin.client\\src\\app\\Menu\\Administracion\\Usuarios\\usuarios\\usuarios.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-22T01:52:04.513Z"
             }
           ]
         }

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:56232",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\..\\tiendakeytlin.client",
+"WorkingDirectory": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\..\\tiendakeytlin.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

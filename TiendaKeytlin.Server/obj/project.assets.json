@@ -4021,23 +4021,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elektra\\.nuget\\packages\\": {},
+    "C:\\Users\\karin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+      "projectUniqueName": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
       "projectName": "TiendaKeytlin.Server",
-      "projectPath": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
-      "packagesPath": "C:\\Users\\elektra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\obj\\",
+      "projectPath": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",
+      "packagesPath": "C:\\Users\\karin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\TiendaKeytlin.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\elektra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4046,7 +4046,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4064,7 +4063,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4128,7 +4128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

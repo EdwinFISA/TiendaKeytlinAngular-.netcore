@@ -7,6 +7,8 @@ import { UsuariosComponent } from '../app/Menu/Administracion/Usuarios/usuarios/
 import { UsuarioModalComponent } from '../app/Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
 import { ContactoComponent } from '../app/Menu/Administracion/Contacto/contacto/contacto.component';
 import { ContactoModalComponent } from '../app/Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
+import { ProveedoresComponent } from './Menu/Articulos/proveedores/proveedores/proveedores.component';
+import { ProveedoresModalComponent } from './Menu/Articulos/proveedores/proveedores-modal/proveedores-modal.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
       { path: 'administracion/usuario-modal', component: UsuarioModalComponent },
       { path: 'administracion/contacto', component: ContactoComponent },
       { path: 'administracion/contacto-modal', component: ContactoModalComponent },
+      { path: 'articulos/proveedores', component: ProveedoresComponent },
+      { path: 'articulos/proveedores-modal', component: ProveedoresModalComponent }
       // Otras rutas aquí
     ]
   },
