@@ -16,7 +16,7 @@ export interface Empresa {
   providedIn: 'root'
 })
 export class EmpresaService {
-  private apiUrl = `${environment.apiUrl}/api/Empresa`; // Cambia esto por la URL de tu backend
+  private apiUrl = `${environment.apiUrl}/api/Empresa`;
 
   constructor(private http: HttpClient) { }
 

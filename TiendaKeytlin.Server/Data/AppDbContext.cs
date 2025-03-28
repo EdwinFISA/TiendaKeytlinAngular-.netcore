@@ -11,6 +11,7 @@ namespace TiendaKeytlin.Server.Data
         public DbSet<EstadoUsuario> Estados { get; set; }
         public DbSet<RolUsuario> Roles { get; set; }
         public DbSet<Empresa> Empresa { get; set; }
+        public DbSet<Proveedor> Proveedores { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

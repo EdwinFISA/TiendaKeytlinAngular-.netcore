@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "78w5hjNKiZVnOQvChI6NJEdm+iu4mhg1HWTFkRtquMw=",
+  "Hash": "xyQOgW9zklvSu3UyLqkBha5jVfXNFfaaiUC9RyVZ2DQ=",
   "Source": "TiendaKeytlin.Server",
   "BasePath": "_content/TiendaKeytlin.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\elektra\\Proyecto\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
+      "Identity": "C:\\Users\\karin\\Documents\\Proyecto IS\\TiendaKeytlinAngular-.netcore\\tiendakeytlin.client\\tiendakeytlin.client.esproj",
       "Version": 2,
       "Source": "tiendakeytlin.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -19,5 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
