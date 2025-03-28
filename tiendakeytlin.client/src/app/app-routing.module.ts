@@ -7,6 +7,7 @@ import { UsuariosComponent } from '../app/Menu/Administracion/Usuarios/usuarios/
 import { UsuarioModalComponent } from '../app/Menu/Administracion/Usuarios/usuarios-modal/usuarios-modal.component';
 import { ContactoComponent } from '../app/Menu/Administracion/Contacto/contacto/contacto.component';
 import { ContactoModalComponent } from '../app/Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
+import { CategoriaComponent } from '../app/Menu/Articulos/categoria/categoria/categoria.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
       { path: 'administracion/usuario-modal', component: UsuarioModalComponent },
       { path: 'administracion/contacto', component: ContactoComponent },
       { path: 'administracion/contacto-modal', component: ContactoModalComponent },
+      { path: 'Articulos/categoria', component: CategoriaComponent },
       // Otras rutas aquí
     ]
   },
