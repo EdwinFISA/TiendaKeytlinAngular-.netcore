@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TiendaKeytlin.Server.Data;
@@ -11,9 +12,11 @@ using TiendaKeytlin.Server.Data;
 namespace TiendaKeytlin.Server.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250327062142_Usuarios")]
+    partial class Usuarios
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -164,30 +167,20 @@ namespace TiendaKeytlin.Server.Migrations
             modelBuilder.Entity("TiendaKeytlin.Server.Models.Usuario", b =>
                 {
                     b.HasOne("TiendaKeytlin.Server.Models.EstadoUsuario", "Estado")
-                        .WithMany("Usuarios")
+                        .WithMany()
                         .HasForeignKey("EstadoId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("TiendaKeytlin.Server.Models.RolUsuario", "Rol")
-                        .WithMany("Usuarios")
+                        .WithMany()
                         .HasForeignKey("RolId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Estado");
 
                     b.Navigation("Rol");
-                });
-
-            modelBuilder.Entity("TiendaKeytlin.Server.Models.EstadoUsuario", b =>
-                {
-                    b.Navigation("Usuarios");
-                });
-
-            modelBuilder.Entity("TiendaKeytlin.Server.Models.RolUsuario", b =>
-                {
-                    b.Navigation("Usuarios");
                 });
 #pragma warning restore 612, 618
         }

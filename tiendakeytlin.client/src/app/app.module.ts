@@ -62,6 +62,7 @@ export function tokenGetter() {
     HttpClientModule,
     LoginComponent, // Importa LoginComponent como standalone
     DashboardComponent, // Importa DashboardComponent como standalone
+
     JwtModule.forRoot({
       config: {
         tokenGetter: tokenGetter,

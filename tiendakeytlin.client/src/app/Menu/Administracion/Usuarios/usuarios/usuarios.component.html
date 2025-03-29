@@ -37,7 +37,7 @@
       <thead>
         <tr class="bg-gray-200">
           <th class="border p-2">ID</th>
-          <th class="border p-2">Nombre de Usuario</th>
+          <th class="border p-2">Correo</th>
           <th class="border p-2">Nombres</th>
           <th class="border p-2">Apellidos</th>
           <th class="border p-2">Rol</th>
@@ -51,14 +51,14 @@
         <tr *ngFor="let usuario of usuariosPaginados(); let i = index"
             class="hover:bg-gray-100">
           <td class="border p-2">{{ usuario.id }}</td>
-          <td class="border p-2">{{ usuario.username }}</td>
-          <td class="border p-2">{{ usuario.nombres }}</td>
-          <td class="border p-2">{{ usuario.apellidos }}</td>
-          <td class="border p-2">{{ usuario.rol }}</td>
-          <td class="border p-2">{{ usuario.estado }}</td>
+          <td class="border p-2">{{ usuario.correo }}</td>
+          <td class="border p-2">{{ usuario.nombre }}</td>
+          <td class="border p-2">{{ usuario.apellido }}</td>
+          <td class="border p-2">{{ usuario.rolNombre }}</td>
+          <td class="border p-2">{{ usuario.estadoNombre }}</td>
           <td class="border p-2">{{ usuario.fechaCreacion }}</td>
           <td class="border p-2">
-            <img [src]="usuario.foto" class="h-10 w-10 rounded-full" />
+            <img [src]="usuario.imagen" class="h-10 w-10 rounded-full" />
           </td>
           <td class="border p-2 flex justify-center space-x-2">
             <button class="text-blue-500" (click)="verUsuario(usuario)">
@@ -94,9 +94,9 @@
   </div>
 
   <!-- Modal -->
-  <app-usuarios-modal *ngIf="mostrarModal"
-                      [usuario]="usuarioSeleccionado"
-                      (guardar)="guardarUsuario($event)"
-                      (cerrar)="cerrarModal()">
-  </app-usuarios-modal>
+  <app-usuario-modal *ngIf="mostrarModal"
+                     [usuario]="usuarioSeleccionado"
+                     (guardar)="guardarUsuario($event)"
+                     (cerrar)="cerrarModal()">
+  </app-usuario-modal>
 </div>

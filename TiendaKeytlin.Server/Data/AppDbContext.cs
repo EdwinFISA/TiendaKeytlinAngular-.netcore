@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TiendaKeytlin.Server.Models; 
+using TiendaKeytlin.Server.Models;
 
 namespace TiendaKeytlin.Server.Data
 {
@@ -14,6 +14,8 @@ namespace TiendaKeytlin.Server.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             // Insertar datos iniciales para Estados
             modelBuilder.Entity<EstadoUsuario>().HasData(
                 new EstadoUsuario { Id = 1, Nombre = "Activo" },
@@ -25,6 +27,19 @@ namespace TiendaKeytlin.Server.Data
                 new RolUsuario { Id = 1, Nombre = "Admin" },
                 new RolUsuario { Id = 2, Nombre = "Vendedor" }
             );
+
+            // Configurar las relaciones
+            modelBuilder.Entity<Usuario>()
+                .HasOne(u => u.Estado)
+                .WithMany(e => e.Usuarios)
+                .HasForeignKey(u => u.EstadoId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Usuario>()
+                .HasOne(u => u.Rol)
+                .WithMany(r => r.Usuarios)
+                .HasForeignKey(u => u.RolId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
