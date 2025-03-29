@@ -52,6 +52,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddLogging(logging =>
+{
+    logging.AddConsole();
+    logging.AddDebug();
+    // Opcional: Agregar otros providers de logging según necesites
+});
+
 var app = builder.Build();
 
 app.UseDefaultFiles();

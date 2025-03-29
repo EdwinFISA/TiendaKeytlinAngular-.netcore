@@ -5,7 +5,7 @@
       {
         "Path": "tiendakeytlin.client\\tiendakeytlin.client.esproj",
         "Action": "Start",
-        "DebugTarget": "localhost (Edge)"
+        "DebugTarget": "localhost (Chrome)"
       },
       {
         "Path": "TiendaKeytlin.Server\\TiendaKeytlin.Server.csproj",

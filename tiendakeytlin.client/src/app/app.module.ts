@@ -27,6 +27,8 @@ import { ReporteVentaComponent } from './Menu/Reportes/reporte-venta/reporte-ven
 import { ReportePedidosComponent } from './Menu/Reportes/reporte-pedidos/reporte-pedidos.component';
 import { ReporteInventarioComponent } from './Menu/Reportes/reporte-inventario/reporte-inventario.component';
 import { ProveedoresModalComponent } from './Menu/Articulos/proveedores/proveedores-modal/proveedores-modal.component';
+import { CategoriaComponent } from './Menu/Articulos/categoria/categoria/categoria.component';
+import { CategoriaModalComponent } from './Menu/Articulos/categoria/categoria-modal/categoria-modal.component';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -51,6 +53,8 @@ export function tokenGetter() {
     ReporteVentaComponent,
     ReportePedidosComponent,
     ReporteInventarioComponent,
+    CategoriaComponent,
+    CategoriaModalComponent
   ],
   imports: [
     BrowserModule,

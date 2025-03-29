@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaKeytlin.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc71e455712f0310916ceba888689966699942bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f07728554680da5fef17dbf759993bbef9c2d67")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaKeytlin.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiendaKeytlin.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

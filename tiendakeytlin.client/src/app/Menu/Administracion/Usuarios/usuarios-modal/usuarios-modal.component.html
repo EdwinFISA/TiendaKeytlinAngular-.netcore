@@ -1,40 +1,163 @@
-<div class="fixed inset-0 flex items-center justify-center z-50" style="background-color: rgba(0, 0, 0, 0.50);">
-  <div class="bg-white p-6 rounded-lg w-1/3">
-    <h2 class="text-2xl font-bold mb-4">Información del Usuario</h2>
-    <form (ngSubmit)="onSubmit()">
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Nombre:</label>
-        <input type="text" class="w-full p-2 border rounded" [(ngModel)]="usuario.nombres" name="nombres">
+<div class="fixed inset-0 flex items-center justify-center z-50">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="bg-white rounded-lg shadow-lg p-6 relative z-10 w-full max-w-4xl">
+    <span class="absolute top-0 right-0 p-4 cursor-pointer" (click)="cerrarModal()">&times;</span>
+    <h2 class="text-2xl font-bold mb-2">{{ usuario.Id ? 'Editar usuario' : 'Crear nuevo usuario' }}</h2>
+
+    <div class="border-b border-gray-300 w-full mb-6"></div>
+
+    <form (ngSubmit)="onSubmit()" #usuarioForm="ngForm">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Nombre -->
+        <div class="mb-4">
+          <label for="nombre" class="block text-sm font-medium mb-1">
+            Nombre <span class="text-red-600">*</span>
+          </label>
+          <input type="text"
+                 id="nombre"
+                 [(ngModel)]="usuario.Nombre"
+                 name="nombre"
+                 required
+                 class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <!-- Apellido -->
+        <div class="mb-4">
+          <label for="apellido" class="block text-sm font-medium mb-1">
+            Apellido <span class="text-red-600">*</span>
+          </label>
+          <input type="text"
+                 id="apellido"
+                 [(ngModel)]="usuario.Apellido"
+                 name="apellido"
+                 required
+                 class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <!-- Correo -->
+        <div class="mb-4">
+          <label for="correo" class="block text-sm font-medium mb-1">
+            Correo electrónico <span class="text-red-600">*</span>
+          </label>
+          <input type="email"
+                 id="correo"
+                 [(ngModel)]="usuario.Correo"
+                 name="correo"
+                 required
+                 class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500">
+        </div>
+
+        <!-- Teléfono -->
+        <div class="mb-4">
+          <label for="telefono" class="block text-sm font-medium mb-1">
+            Teléfono <span class="text-red-600">*</span>
+          </label>
+          <input type="tel"
+                 id="telefono"
+                 [(ngModel)]="usuario.Telefono"
+                 name="telefono"
+                 required
+                 class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500">
+        </div>
+
+
+        <!-- Estado -->
+        <div class="mb-4">
+          <label for="estado" class="block text-sm font-medium mb-1">
+            Estado<span class="text-red-600">*</span>
+          </label>
+          <div class="relative">
+            <select id="estado"
+                    [(ngModel)]="usuario.EstadoId"
+                    name="estado"
+                    required
+                    class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500 appearance-none">
+              <option value="">Seleccione un estado</option>
+              <option *ngFor="let estado of estados"
+                      [ngValue]="estado.Id || estado.id">
+                {{estado.Nombre || estado.nombre}}
+              </option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </div>
+            <div *ngIf="estados.length === 0" class="text-sm text-gray-500 mt-1">
+              Cargando estados... ({{estados.length}} cargados)
+            </div>
+          </div>
+        </div>
+
+        <!-- Rol -->
+        <div class="mb-4">
+          <label for="rol" class="block text-sm font-medium mb-1">
+            Rol<span class="text-red-600">*</span>
+          </label>
+          <div class="relative">
+            <select id="rol"
+                    [(ngModel)]="usuario.RolId"
+                    name="rol"
+                    required
+                    class="border border-gray-300 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500 appearance-none">
+              <option value="">Seleccione un rol</option>
+              <option *ngFor="let rol of roles"
+                      [ngValue]="rol.Id || rol.id">
+                {{rol.Nombre || rol.nombre}}
+              </option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </div>
+            <div *ngIf="roles.length === 0" class="text-sm text-gray-500 mt-1">
+              Cargando roles... ({{roles.length}} cargados)
+            </div>
+          </div>
+        </div>
+
+        <!-- Imagen -->
+        <div class="mb-4">
+          <label for="imagen" class="block text-sm font-medium mb-1">
+            Imagen
+          </label>
+          <div class="flex">
+            <input type="text"
+                   id="imagen"
+                   name="imagen"
+                   readonly
+                   value="ejemplo.jpg"
+                   class="border border-gray-300 rounded-l w-full py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500" />
+            <label for="fileInput" class="bg-navy-700 hover:bg-navy-800 text-white font-medium py-2 px-4 rounded-r cursor-pointer">
+              Cargar imagen
+            </label>
+            <input type="file"
+                   id="fileInput"
+                   class="hidden" />
+          </div>
+        </div>
+
       </div>
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Apellidos:</label>
-        <input type="text" class="w-full p-2 border rounded" [(ngModel)]="usuario.apellidos" name="apellidos">
-      </div>
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Correo electrónico:</label>
-        <input type="email" class="w-full p-2 border rounded" [(ngModel)]="usuario.email" name="email">
-      </div>
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Teléfono:</label>
-        <input type="text" class="w-full p-2 border rounded" [(ngModel)]="usuario.telefono" name="telefono">
-      </div>
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Rol:</label>
-        <select class="w-full p-2 border rounded" [(ngModel)]="usuario.rol" name="rol">
-          <option value="Admin">Admin</option>
-          <option value="Usuario">Usuario</option>
-        </select>
-      </div>
-      <div class="mb-4">
-        <label class="block text-sm font-bold mb-2">Estado:</label>
-        <select class="w-full p-2 border rounded" [(ngModel)]="usuario.estado" name="estado">
-          <option value="Activo">Activo</option>
-          <option value="Inactivo">Inactivo</option>
-        </select>
-      </div>
-      <div class="flex justify-end">
-        <button type="button" (click)="cerrarModal()" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Cancelar</button>
-        <button type="submit" class="bg-[#c62828] text-white px-4 py-2 rounded">Guardar</button>
+
+      <!-- Debug info (si lo necesitas) -->
+      <!--<div class="mb-4 p-2 bg-gray-100 text-xs">
+    <p>Roles cargados: {{roles.length}}</p>
+    <p>Estados cargados: {{estados.length}}</p>
+    <p>Usuario actual: {{usuario | json}}</p>
+  </div>-->
+      <!-- Botones -->
+      <div class="flex items-center justify-between mt-6">
+        <button type="button"
+                (click)="cerrarModal()"
+                class="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-6 rounded focus:outline-none">
+          Cancelar
+        </button>
+        <button type="submit"
+                [disabled]="!usuarioForm.form.valid"
+                class="bg-blue-700 hover:bg-navy-800 text-white font-medium py-2 px-6 rounded focus:outline-none">
+          Guardar
+        </button>
       </div>
     </form>
   </div>

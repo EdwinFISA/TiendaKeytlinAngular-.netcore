@@ -1,11 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
+using System.Text.Json.Serialization;
+
 
 namespace TiendaKeytlin.Server.Models
 {
     public class Usuario
     {
+        [Key]
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
@@ -16,8 +19,15 @@ namespace TiendaKeytlin.Server.Models
         public DateTime? FechaCreacion { get; set; }
         public DateTime? UltimoInicioSesion { get; set; }
         public int EstadoId { get; set; }
-        public EstadoUsuario Estado { get; set; }
         public int RolId { get; set; }
-        public RolUsuario Rol { get; set; }
+
+        // Propiedades de navegación
+        [JsonIgnore]
+        [ForeignKey("EstadoId")]
+        public virtual EstadoUsuario Estado { get; set; }
+
+        [JsonIgnore]
+        [ForeignKey("RolId")]
+        public virtual RolUsuario Rol { get; set; }
     }
 }

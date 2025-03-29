@@ -10,8 +10,6 @@
   <ItemGroup>
     <Folder Include="src\app\Menu\Administracion\Contacto\" />
     <Folder Include="src\app\Menu\Administracion\Usuarios\" />
-    <Folder Include="src\app\Menu\Articulos\" />
-    <Folder Include="src\app\Menu\Articulos\categoria\" />
     <Folder Include="src\app\Menu\Caja\" />
     <Folder Include="src\app\Menu\Inventario\" />
     <Folder Include="src\app\Menu\Reportes\" />

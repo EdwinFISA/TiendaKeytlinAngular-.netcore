@@ -7,3 +7,4 @@ C:\Users\karin\OneDrive\Escritorio\Proyecto U\ProyectoTienda\TiendaKeytlinAngula
 C:\Users\guait\Desktop\PROYECTO 2.0\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
 C:\Users\elektra\Proyecto\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
 C:\Users\karin\Documents\Proyecto IS\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache
+C:\Users\guait\Desktop\Karina\TiendaKeytlinAngular-.netcore\tiendakeytlin.client\obj\Debug\tiendakeytlin.client.esproj.CoreCompileInputs.cache

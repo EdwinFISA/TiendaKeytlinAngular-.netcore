@@ -1,123 +1,267 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { UsuarioService } from '../../../../services/usuario.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-usuarios',
-  standalone: false,
   templateUrl: './usuarios.component.html',
-  styleUrls: ['./usuarios.component.css']
+  styleUrls: ['./usuarios.component.css'],
+  standalone: false
 })
-export class UsuariosComponent {
-  filtroUsuario: string = '';
+export class UsuariosComponent implements OnInit {
+  usuarios: any[] = [];
+  mostrarModal = false;
+  usuarioSeleccionado: any = null;
+
+  // Filtros
+  filtroUsuario = '';
   fechaInicio: string = '';
   fechaFin: string = '';
-  usuarios: any[] = [
-    {
-      id: 1,
-      username: 'efigueroa12',
-      nombres: 'Edwin',
-      apellidos: 'Figueroa',
-      rol: 'Admin',
-      estado: 'Activo',
-      fechaCreacion: '12/03/2025',
-      foto: 'https://randomuser.me/api/portraits/men/1.jpg',
-    },
-    {
-      id: 2,
-      username: 'jperez34',
-      nombres: 'Juan',
-      apellidos: 'Pérez',
-      rol: 'Usuario',
-      estado: 'Activo',
-      fechaCreacion: '15/03/2025',
-      foto: 'https://randomuser.me/api/portraits/men/2.jpg',
-    },
-    {
-      id: 3,
-      username: 'mgomez56',
-      nombres: 'María',
-      apellidos: 'Gómez',
-      rol: 'Usuario',
-      estado: 'Inactivo',
-      fechaCreacion: '20/03/2025',
-      foto: 'https://randomuser.me/api/portraits/women/3.jpg',
-    }
-  ]; // Lista de usuarios quemados
-  usuarioSeleccionado: any = null;
-  mostrarModal: boolean = false;
-  paginaActual: number = 1;
-  usuariosPorPagina: number = 10;
 
-  constructor() { }
+  // Paginación
+  paginaActual = 1;
+  elementosPorPagina = 10;
+
+  constructor(private usuarioService: UsuarioService) { }
+
+  originalUsuarios: any[] = [];
+
+  ngOnInit(): void {
+    this.cargarUsuarios();
+    this.verificarPropiedadesUsuarios();
+  }
+
+  cargarUsuarios() {
+    this.usuarioService.obtenerUsuarios().subscribe({
+      next: (data) => {
+        console.log('Datos de usuarios recibidos:', data);
+        this.originalUsuarios = data;
+        this.usuarios = [...data];
+        this.verificarPropiedadesUsuarios();
+      },
+      error: (error) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error al cargar usuarios',
+          text: error.message || 'Hubo un problema al cargar los usuarios.'
+        });
+      }
+    });
+  }
+
+  verificarPropiedadesUsuarios() {
+    if (this.usuarios.length > 0) {
+      console.log('Estructura de Usuarios:', Object.keys(this.usuarios[0]));
+      console.log('Primer Usuario:', this.usuarios[0]);
+    }
+  }
 
   buscarUsuario() {
-    console.log('Buscando usuario con filtro:', this.filtroUsuario);
-    // Lógica para filtrar usuarios
+    if (!this.filtroUsuario.trim()) {
+      this.usuarios = [...this.originalUsuarios];
+      return;
+    }
+
+    const filtro = this.filtroUsuario.toLowerCase();
+    this.usuarios = this.originalUsuarios.filter(usuario =>
+      usuario.nombre.toLowerCase().includes(filtro) ||
+      usuario.apellido.toLowerCase().includes(filtro) ||
+      usuario.correo.toLowerCase().includes(filtro)
+    );
+    this.aplicarFiltros();
   }
 
   filtrarPorFecha() {
-    console.log('Filtrando usuarios entre:', this.fechaInicio, 'y', this.fechaFin);
-    // Lógica para filtrar usuarios por fecha
+    if (!this.fechaInicio || !this.fechaFin) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Fechas incompletas',
+        text: 'Por favor seleccione ambas fechas.'
+      });
+      return;
+    }
+
+    const inicio = new Date(this.fechaInicio);
+    const fin = new Date(this.fechaFin);
+
+    if (isNaN(inicio.getTime()) || isNaN(fin.getTime())) {
+      Swal.fire({
+        icon: 'warning',
+        title: 'Fechas inválidas',
+        text: 'Por favor ingrese fechas válidas.'
+      });
+      return;
+    }
+
+    this.usuarios = this.originalUsuarios.filter(usuario => {
+      const fechaCreacion = new Date(usuario.fechaCreacion);
+      return fechaCreacion >= inicio && fechaCreacion <= fin;
+    });
+    this.aplicarFiltros();
   }
 
-  usuariosPaginados() {
-    const inicio = (this.paginaActual - 1) * this.usuariosPorPagina;
-    return this.usuarios.slice(inicio, inicio + this.usuariosPorPagina);
+
+  usuariosPaginados(): any[] {
+    return this.usuarios.slice(
+      (this.paginaActual - 1) * this.elementosPorPagina,
+      this.paginaActual * this.elementosPorPagina
+    );
   }
 
-  verUsuario(usuario: any) {
-    console.log('Ver usuario:', usuario);
-    this.usuarioSeleccionado = usuario;
-    this.mostrarModal = true;
-  }
-
-  abrirModalCrear() {
-    this.usuarioSeleccionado = null;
-    this.mostrarModal = true;
-  }
-
-  abrirModalEditar(usuario: any) {
-    this.usuarioSeleccionado = usuario;
-    this.mostrarModal = true;
-  }
-
-  eliminarUsuario(id: number) {
-    console.log('Eliminando usuario con ID:', id);
-    this.usuarios = this.usuarios.filter(user => user.id !== id);
+  totalPaginas(): number {
+    return Math.ceil(this.usuarios.length / this.elementosPorPagina);
   }
 
   paginaAnterior() {
     if (this.paginaActual > 1) {
       this.paginaActual--;
+      this.aplicarFiltros();
     }
   }
 
   paginaSiguiente() {
     if (this.paginaActual < this.totalPaginas()) {
       this.paginaActual++;
+      this.aplicarFiltros();
     }
   }
 
-  totalPaginas() {
-    return Math.ceil(this.usuarios.length / this.usuariosPorPagina);
+  aplicarFiltros() {
+    this.buscarUsuario();
+    this.filtrarPorFecha();
+  }
+
+  abrirModalCrear() {
+    this.usuarioSeleccionado = {
+      Id: 0,
+      Nombre: '',
+      Apellido: '',
+      Correo: '',
+      Telefono: '',
+      Imagen: '',
+      EstadoId: '',
+      RolId: '',
+    };
+    this.mostrarModal = true;
+  }
+
+  abrirModalEditar(usuario: any) {
+    // Asignar todos los campos al modal para edición
+    this.usuarioSeleccionado = {
+      Id: usuario.id || usuario.Id,
+      Nombre: usuario.nombre || usuario.Nombre,
+      Apellido: usuario.apellido || usuario.Apellido,
+      Correo: usuario.correo || usuario.Correo,
+      Telefono: usuario.telefono || usuario.Telefono,
+      Imagen: usuario.imagen || usuario.Imagen,
+      EstadoId: usuario.estadoId || usuario.EstadoId,
+      RolId: usuario.rolId || usuario.RolId
+    };
+
+    console.log('Usuario para editar:', this.usuarioSeleccionado);
+    this.mostrarModal = true;
+  }
+
+  verUsuario(usuario: any) {
+    this.usuarioSeleccionado = {
+      Id: usuario.id || usuario.Id,
+      Nombre: usuario.nombre || usuario.Nombre,
+      Apellido: usuario.apellido || usuario.Apellido,
+      Correo: usuario.correo || usuario.Correo,
+      Telefono: usuario.telefono || usuario.Telefono,
+      Imagen: usuario.imagen || usuario.Imagen,
+      EstadoId: usuario.estadoId || usuario.EstadoId,
+      RolId: usuario.rolId || usuario.RolId
+    };
+    this.mostrarModal = true; // Asegúrate de que este modal solo muestre información
   }
 
   guardarUsuario(usuario: any) {
-    console.log('Guardando usuario:', usuario);
-    if (usuario.id) {
-      // Editar usuario existente
-      const index = this.usuarios.findIndex(u => u.id === usuario.id);
-      if (index !== -1) {
-        this.usuarios[index] = usuario;
+    const usuarioParaGuardar = {
+      ...usuario,
+      Id: this.usuarioSeleccionado.Id || 0,  // Si es un nuevo usuario, el Id será 0
+      RolId: this.usuarioSeleccionado.RolId,
+      EstadoId: this.usuarioSeleccionado.EstadoId,
+      Nombre: usuario.Nombre,
+      Apellido: usuario.Apellido,
+      Correo: usuario.Correo,
+      Telefono: usuario.Telefono
+    };
+
+    console.log('Datos preparados para enviar:', JSON.stringify(usuarioParaGuardar, null, 2));
+
+    this.usuarioService.guardarUsuario(usuarioParaGuardar).subscribe({
+      next: (response) => {
+        console.log('Respuesta del servidor:', response);
+        this.cargarUsuarios();  // Recargar la lista de usuarios
+        this.cerrarModal();      // Cerrar el modal después de guardar
+
+        // Mostrar mensaje de éxito dependiendo si es crear o editar
+        if (!usuarioParaGuardar.Id) {
+          Swal.fire({
+            icon: 'success',
+            title: 'Usuario creado',
+            text: `Contraseña generada: ${response.contrasenaGenerada}`
+          });
+        } else {
+          Swal.fire({
+            icon: 'success',
+            title: 'Usuario actualizado',
+            text: 'El usuario se ha actualizado correctamente.'
+          });
+        }
+      },
+      error: (error) => {
+        console.error('Error completo:', error);
+        let mensajeError = 'Error al guardar usuario';
+        if (error.error?.errors) {
+          mensajeError = Object.entries(error.error.errors)
+            .map(([key, val]) => `${key}: ${Array.isArray(val) ? val.join(', ') : val}`)
+            .join('\n');
+        }
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: mensajeError
+        });
       }
-    } else {
-      // Crear nuevo usuario
-      usuario.id = this.usuarios.length + 1; // Asignar un ID temporal
-      this.usuarios.push(usuario);
-    }
-    this.cerrarModal();
+    });
+  }
+
+  eliminarUsuario(id: number) {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Confirmar eliminación',
+      text: '¿Está seguro de eliminar este usuario?',
+      showCancelButton: true,
+      confirmButtonText: 'Sí, eliminar',
+      cancelButtonText: 'Cancelar'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.usuarioService.eliminarUsuario(id).subscribe({
+          next: () => {
+            this.cargarUsuarios();
+            Swal.fire({
+              icon: 'success',
+              title: 'Usuario eliminado',
+              text: 'El usuario ha sido eliminado con éxito.'
+            });
+          },
+          error: (error) => {
+            console.error('Error al eliminar usuario:', error);
+            Swal.fire({
+              icon: 'error',
+              title: 'Error',
+              text: 'Hubo un problema al eliminar el usuario.'
+            });
+          }
+        });
+      }
+    });
   }
 
   cerrarModal() {
     this.mostrarModal = false;
+    this.usuarioSeleccionado = null;
   }
 }

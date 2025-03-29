@@ -9,6 +9,7 @@ import { ContactoComponent } from '../app/Menu/Administracion/Contacto/contacto/
 import { ContactoModalComponent } from '../app/Menu/Administracion/Contacto/contacto-modal/contacto-modal.component';
 import { ProveedoresComponent } from './Menu/Articulos/proveedores/proveedores/proveedores.component';
 import { ProveedoresModalComponent } from './Menu/Articulos/proveedores/proveedores-modal/proveedores-modal.component';
+import { CategoriaComponent } from './Menu/Articulos/categoria/categoria/categoria.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -21,7 +22,8 @@ const routes: Routes = [
       { path: 'administracion/contacto', component: ContactoComponent },
       { path: 'administracion/contacto-modal', component: ContactoModalComponent },
       { path: 'articulos/proveedores', component: ProveedoresComponent },
-      { path: 'articulos/proveedores-modal', component: ProveedoresModalComponent }
+      { path: 'articulos/proveedores-modal', component: ProveedoresModalComponent },
+      { path: 'Articulos/categoria', component: CategoriaComponent },
       // Otras rutas aquí
     ]
   },
